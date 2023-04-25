@@ -4,7 +4,7 @@ const { spawn } = require('child_process');
 
     pyProg.stdout.on('data', function(data) {
 
-        console.log(data.toString(),"klasdfklasf");
+        console.log(data.toString(),"klasdfklasf");  
         // res.write(data);
         // res.end('end');
     });

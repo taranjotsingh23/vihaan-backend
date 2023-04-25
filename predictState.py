@@ -10,7 +10,7 @@ def main():
   tiredness = int(sys.argv[3])
   compulsive_behavior = int(sys.argv[4])
   panic_attacks = int(sys.argv[5])
-  mood_swings = int(sys.argv[6])
+  mood_swings = int(sys.argv[6])  
   obsessive_thinking = int(sys.argv[7])
   depression = int(sys.argv[8])
   anxiety = int(sys.argv[9])

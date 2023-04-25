@@ -223,7 +223,7 @@ router.post("/selfassessment2", async (req, res) => {
         }
         else{    
             msg = "Join Our Music Therapy with Spotify and Vent it out!!";        
-        }
+        }  
         res.status(200).send({ resCode: 200, message: msg});
     });
     }

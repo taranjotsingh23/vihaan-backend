@@ -7,7 +7,7 @@ def main():
   Random_Forest = pickle.load(open('./Random_ForestN.pkl', 'rb'))
   employment = sys.argv[1]
   # mentallyIll = sys.argv[2]
-  education = sys.argv[2]
+  education = sys.argv[2]  
   own_computer = sys.argv[3]
   hospitalized = sys.argv[4]
   hospitalized1 = sys.argv[5]

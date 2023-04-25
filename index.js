@@ -27,7 +27,7 @@ app.use(express.json());
 //   res.header("Access-Control-Allow-Origin", "*")
 // })
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: ["http://localhost:3000","http://localhost:3001","https://talking-minds-frontend-web.vercel.app"]
 };
 
 app.use(cors(corsOptions));
